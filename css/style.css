@@ -1,0 +1,195 @@
+/* google link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+/* common css start */
+    body{
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #000000;
+    }
+/* common css end */
+
+/* header start */
+    header{
+        padding: 15px;
+        background-color: #F0FFF0;
+    }
+    .menu ul li a{
+        padding: 0 25px !important;
+        color: #000000 !important;
+    }
+    .menu ul li a:hover{
+        color: #FD511A !important;
+    }
+    .btn_c{
+        font-family: 'Roboto', sans-serif;
+        color: white !important;
+        border-radius: 33px;
+        background-color: #21B573;
+		transition: .3s;
+    }
+    .btn_s{
+        margin-left: 15px;
+        padding: 12px 28px;
+    }
+    .btn_c:hover{
+         background-color: #FD511A;
+    }
+    .btn_c:active{
+        background-color: #FD511A !important;
+    }
+/* header end */
+
+.banner{
+    width: 100%;
+    padding: 80px 0px;
+    background-color: #F0FFF0;
+}
+.inner-banner{
+    width: 100%;
+    padding: 40px 0px 0px;
+}
+.inner-banner h4{
+font-size: 18px;
+font-weight: 500px;
+color: #FD511A;
+line-height: 1.2em;
+}
+.inner-banner h1{
+    font-size: 52px;
+    font-weight: 600px;
+    color: #000;
+    line-height: 1.4em;
+}
+.inner-banner h1 span{
+color: #21B573;
+}
+.inner-banner p{
+font-size: 16px;
+font-weight: 400;
+line-height: 1.7em;
+color: #000;
+}
+.inner-banner .btn-success{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding: 10px 40px;
+    border-radius: 6px;
+    color: #fff;
+    background: #21B573;
+   margin: 10px 0px 0px 0px;
+    transition: .3s;
+}
+.inner-banner .btn-success:hover{
+    color: #fcfafa;
+    background: #FD511A;
+    border: 1px solid #FD511A;
+}
+
+.feature{
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.feacard {
+    margin-top: 20px;
+}
+.feature .inner-feature{
+    width: 100%;
+    padding: 60px 40px;
+    text-align: center;
+    background: #F8FFFB;
+    border-radius: 10px;
+    transition: .4s;
+}
+.feature .inner-feature img{
+    width: 66px;
+    height: 85px;
+    margin: 0px 0px 25px;
+}
+.feature .inner-feature h4{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2em;
+    color: #000;
+    margin: 0px ;
+}
+.feature .inner-feature p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: #585859;
+    margin: 0px ;
+}
+.feature .inner-feature:hover {
+    background: #fff;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.online-courses{
+    width: 100%;
+    padding: 80px 0px;
+}
+.online-courses .title{
+    text-align: center;
+    font-size: 52px;
+    font-weight: 700px;
+    color: #000;
+    line-height: 1.4em;
+    margin: 0px 0px 40px;
+}
+.online-courses .card{
+padding: 20px;
+box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+border: 0px;
+border-radius: 10px;
+}
+.online-courses .card .card-body{
+    padding: 10px 0px;
+}
+.online-courses .card .card-body .card-title{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2em;
+    text-transform: capitalize;
+    color: #000;
+    margin: 10px 0px 5px;
+}
+.online-courses .card .card-body .card-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: #585859;
+}
+.online-courses .card .card-body .btn-success{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding: 8px 30px;
+    border-radius: 6px;
+    color: #fff;
+    background: #21B573;
+    border: 1px solid #21B573;
+   margin: 10px 0px 0px 0px;
+    transition: 1s;
+}
+.online-courses .card .card-body .btn-success:hover{
+    color: #fff;
+    background: #FBD15B;
+    border: 1px solid #FBD15B;
+}
+.online-courses .card .card-body .info{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: #585859;
+    margin: 40px 0px 0px;
+}
+.online-courses .card .card-body .info img{
+    width: 14px;
+}
+.text-right{
+    text-align: right;
+}
